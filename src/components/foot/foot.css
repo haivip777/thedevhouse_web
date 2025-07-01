@@ -1,8 +1,11 @@
 .footer {
   padding-top: 1rem;
+  border-top: 1px solid #ccc;
+  background-color: #ecf0f1;
 }
 
 .footer-container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 60px;

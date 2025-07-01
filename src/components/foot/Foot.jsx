@@ -3,8 +3,8 @@ import './foot.css'
 const Foot = () => {
   return (
     <footer class="footer">
-      <div class="footer-container">
-        
+      <div class="section__padding">
+      <div class="footer-container  dh__container">
         <div class="footer-left">
           <div class="social-icons">
             <a href="/instagram" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
@@ -126,6 +126,8 @@ const Foot = () => {
             </ul>
           </div>
         </div>
+
+      </div>
       </div>
     </footer>
   )

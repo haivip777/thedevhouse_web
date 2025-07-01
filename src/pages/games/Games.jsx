@@ -1,8 +1,9 @@
 import './games.css'
+import { Detailproject } from '../../components'
 
 const Games = () => {
   return (
-    <div>Games</div>
+    <Detailproject/>
   )
 }
 
