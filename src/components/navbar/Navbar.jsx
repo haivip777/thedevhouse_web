@@ -31,6 +31,7 @@ const Navbar = () => {
     { name: "Game", path: "/games" },
     { name: "Website", path: "/websites" },
     { name: "Service", path: "/services" },
+    { name: "Post", path: "/post" },
     { name: "AboutUs", path: "/about" },
   ]
 

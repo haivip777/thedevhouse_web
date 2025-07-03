@@ -160,14 +160,16 @@
 }
 
 .social-icons {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   gap: 10px;
   margin-top: 20px;
+  padding: 10px;
 }
 
 
 .social-icon {
+  float: left;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -178,6 +180,7 @@
   text-decoration: none;
   font-size: 14px;
   transition: transform 0.2s ease;
+  margin: 3px;
 }
 
 

@@ -10,7 +10,7 @@ import viet_img from '../../assets/aboutus/viet.jpg'
 const teamMembers = [
   {
     name: "Hai Luu Cong",
-    role: "CEO",
+    role: "CIO & Co-Founder",
     image: hai_img,
     color: "blue",
     description: "Chuyên phát triển frontend & backend với React, Node.js và MongoDB.",
@@ -22,10 +22,10 @@ const teamMembers = [
   },
   {
     name: "Vuong Duong Minh",
-    role: "CEO",
+    role: "CEO & Founder",
     image: vuong_img,
     color: "red",
-    description: "Thiết kế gameplay và đồ họa cho các dự án Unity 3D, 2D sáng tạo.",
+    description: "Chuyên phát triển frontend & backend với React, Node.js và MongoDB.",
     socials: {
       facebook: "https://facebook.com/tranthib",
       twitter: "https://twitter.com/tranthib",
@@ -34,7 +34,7 @@ const teamMembers = [
   },
   {
     name: "Lam Nguyen Thanh",
-    role: "CEO",
+    role: "CTO & Co-Founder",
     image: lam_img,
     color: "orange",
     description: "Triển khai và tối ưu hệ thống trên nền tảng AWS, GCP, Azure.",
@@ -46,10 +46,10 @@ const teamMembers = [
   },
   {
     name: "Long Duong Van",
-    role: "CEO",
+    role: "CMO & CHRO",
     image: long_img,
     color: "green",
-    description: "Thiết kế giao diện người dùng tối ưu trải nghiệm trên web và mobile.",
+    description: "Editor và đảm bảo truyền thông cho công ty trên các nền tảng MXH",
     socials: {
       facebook: "https://facebook.com/phamthid",
       twitter: "https://twitter.com/phamthid",
@@ -58,10 +58,10 @@ const teamMembers = [
   },
   {
     name: "Trong Anh Nguyen",
-    role: "CEO",
+    role: "CIO & Co-Founder",
     image: tronganh_img,
     color: "purple",
-    description: "Quản lý dự án, giao tiếp khách hàng, kiểm soát tiến độ phát triển.",
+    description: "Game Unity Developer, chuyên phát triển game độ phức tạp cao",
     socials: {
       facebook: "https://facebook.com/dominhe",
       twitter: "https://twitter.com/dominhe",
@@ -70,10 +70,10 @@ const teamMembers = [
   },
   {
     name: "Viet Nguyen Duc",
-    role: "CEO",
+    role: "CPO",
     image: viet_img,
     color: "purple",
-    description: "Tự động hóa CI/CD, giám sát hệ thống và đảm bảo hiệu năng cao.",
+    description: "Game Unity Developer, chuyên phát triển game độ phức tạp cao",
     socials: {
       facebook: "https://facebook.com/vuthif",
       twitter: "https://twitter.com/vuthif",

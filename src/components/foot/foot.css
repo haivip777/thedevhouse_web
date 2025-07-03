@@ -18,12 +18,12 @@
 .social-icons {
   margin-bottom: 1rem;
   margin-top: 0!important;
-  translate: -8px -4px!important;
+  translate: -10px -4px!important;
   justify-content: flex-start!important;
 }
 
 .social-link {
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   width: 40px;
