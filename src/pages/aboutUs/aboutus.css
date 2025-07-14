@@ -104,12 +104,12 @@
 
 
 .card-header.blue {
-  background: linear-gradient(135deg, #4FC3F7, #29B6F6);
+  background: linear-gradient(135deg, #4f98f7, #4f98f7);
 }
 
 
-.card-header.red {
-  background: linear-gradient(135deg, #FF5722, #F44336);
+.card-header.gray {
+  background: linear-gradient(135deg, #505050, #535353);
 }
 
 
@@ -124,7 +124,11 @@
 
 
 .card-header.purple {
-  background: linear-gradient(135deg, #9C27B0, #673AB7);
+  background: linear-gradient(135deg, #710b83, #710b83);
+}
+
+.card-header.pink {
+  background: linear-gradient(135deg, #ff008c, #ff008c);
 }
 
 

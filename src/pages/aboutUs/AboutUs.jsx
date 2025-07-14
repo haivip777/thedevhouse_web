@@ -24,7 +24,7 @@ const teamMembers = [
     name: "Vuong Duong Minh",
     role: "CEO & Founder",
     image: vuong_img,
-    color: "red",
+    color: "gray",
     description: "Chuyên phát triển frontend & backend với React, Node.js và MongoDB.",
     socials: {
       facebook: "https://facebook.com/tranthib",
@@ -72,7 +72,7 @@ const teamMembers = [
     name: "Viet Nguyen Duc",
     role: "CPO",
     image: viet_img,
-    color: "purple",
+    color: "pink",
     description: "Game Unity Developer, chuyên phát triển game độ phức tạp cao",
     socials: {
       facebook: "https://facebook.com/vuthif",
