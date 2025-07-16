@@ -2,13 +2,25 @@ import './showproject.css'
 import { projects } from '../../data/projects'
 import { Card } from '../../components'
 import { useState } from 'react'
+import { useLocation } from 'react-router-dom'
 
 const Showproject = () => {
+  const location = useLocation();
+  const path = location.pathname;
+
+  const typeFilter = path.includes('games') ? 'Game'
+                   : path.includes('websites') ? 'Website'
+                   : null;
+
+  const filteredProjects = typeFilter
+    ? projects.filter(project => project.type === typeFilter)
+    : projects;
+
   const itemsPerPage = 9;
   const [currentPage, setCurrentPage] = useState(1);
-  const totalPages = Math.ceil(projects.length / itemsPerPage);
+  const totalPages = Math.ceil(filteredProjects.length / itemsPerPage);
   const start = (currentPage - 1) * itemsPerPage;
-  const currentProjects = projects.slice(start, start + itemsPerPage);
+  const currentProjects = filteredProjects.slice(start, start + itemsPerPage);
 
   return (
     <>

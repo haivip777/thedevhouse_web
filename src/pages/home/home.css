@@ -85,6 +85,8 @@
   color: #2c5aa0;
   font-size: 36px;
   margin-bottom: 4px;
+  display: flex;
+  align-items: center;
 }
 
 .dh__projects-subtitle {

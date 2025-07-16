@@ -1,4 +1,3 @@
-import React from 'react';
 import './post.css'; // Đảm bảo bạn đã tạo file CSS phù hợp
 
 const PostItem = ({ avatar, author, date, title, tags, excerpt, views, comments, likes, score }) => (

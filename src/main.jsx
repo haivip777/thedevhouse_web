@@ -13,13 +13,26 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="games" element={<Games />} />
+          <Route path="games/:id" element={<Games />} />
           <Route path="websites" element={<Websites />} />
+          <Route path="websites/:id" element={<Websites />} />
           <Route path="services" element={<Services />} />
           <Route path="post" element={<Post />} />
           <Route path="about" element={<AboutUs />} />
         </Route>
       </Routes>
+
     </BrowserRouter>
   </StrictMode>,
 )
                                                        
+      // <Routes>
+      //   <Route path="/" element={<App />}>
+      //     <Route index element={<Home />} />
+      //     <Route path="games" element={<Games />} />
+      //     <Route path="websites" element={<Websites />} />
+      //     <Route path="services" element={<Services />} />
+      //     <Route path="post" element={<Post />} />
+      //     <Route path="about" element={<AboutUs />} />
+      //   </Route>
+      // </Routes>

@@ -1,7 +1,9 @@
 import './home.css'
 import hero_bg from '../../assets/home/hero_bg.png'
+import new_img from '../../assets/new-icon.png'
 import { Search } from '../../components'
 import { Showproject } from '../../container'
+
 
 const Home = () => {
    
@@ -19,7 +21,7 @@ const Home = () => {
           </div>
         </section>
         <div className="dh__home--projects">
-          <h2 className="dh__projects-title">Hot nhất</h2>
+          <h2 className="dh__projects-title">Hot nhất <span><img src={new_img} width={150} height={100} alt="new" /></span></h2>
           <p className="dh__text dh__projects-subtitle">Full Source code</p>
           <Showproject/>
         </div>
