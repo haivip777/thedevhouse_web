@@ -66,7 +66,7 @@ const Post = () => {
 
   return (
     <div>
-      <header className="header">
+      {/* <header className="header">
         <div className="header-content">
           <a href="#" className="logo">VIBLO</a>
           <nav>
@@ -89,7 +89,7 @@ const Post = () => {
             <img src="/placeholder.svg?height=32&width=32" alt="User Avatar" className="user-avatar" />
           </div>
         </div>
-      </header>
+      </header> */}
 
       <div className="main-container">
         <main className="content-area">
