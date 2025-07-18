@@ -42,6 +42,18 @@
   display: block;
 }
 
+.dh__new img {
+  width: 120px;
+  height: 70px;
+  animation: blink 0.7s infinite; 
+}
+
+@keyframes blink {
+  0%   { filter: brightness(1); }
+  50%  { filter: brightness(2); } 
+  100% { filter: brightness(1); }
+}
+
 @media (max-width: 1200px) {
   .dh__home--hero_content {
     padding-right: 2rem;
