@@ -9,6 +9,7 @@ import { useState } from 'react'
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchTag, setSearchTag] = useState('');
+  const [showBanner, setShowBanner] = useState(true);
 
   const handleSearch = (term) => {
     setSearchTerm(term);
@@ -20,9 +21,25 @@ const Home = () => {
     setSearchTerm('');
   };
 
+  const handleContact = () => {
+    window.location.href = '#';
+  };
+
   return (
     <div className='dh__home section__padding'>
-      <div className="dh__container">
+      {showBanner && (
+        <div className="dh__banner-overlay">
+          <div className="dh__banner-square">
+            <button className="dh__banner-close" onClick={() => setShowBanner(false)}>×</button>
+            <img src={hero_bg} alt="Đặt project" className="dh__banner-img" />
+            <div className="dh__banner-content">
+              <span>The Dev House Shop</span>
+              <button className="dh__banner-contact" onClick={handleContact}>Đặt Project theo yêu cầu</button>
+            </div>
+          </div>
+        </div>
+      )}
+      <div className="dh__container" style={showBanner ? { filter: 'blur(2px)', pointerEvents: 'none', userSelect: 'none' } : {}}>
         <section className="dh__home--hero">
           <div className="dh__home--hero_content">
             <h1 className="dh-hero-title gradient__text">Chào mừng bạn đến với The Dev House</h1>
