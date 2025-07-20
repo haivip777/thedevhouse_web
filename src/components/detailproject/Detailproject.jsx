@@ -120,12 +120,24 @@ import review_star from '../../assets/review_star.png';
 import { Gallery } from '../../components';
 import { useParams } from 'react-router-dom';
 import { projects } from '../../data/projects';
+import { useState } from 'react';
 
 const Detailproject = () => {
   const { id } = useParams();
   const project = projects.find(p => p.id === id);
+  const [showDemoModal, setShowDemoModal] = useState(false);
+  const [selectedDemo, setSelectedDemo] = useState(0);
 
   if (!project) return <p className="dh__text">Không tìm thấy project.</p>;
+
+  const handleDemoClick = () => {
+    if (project.type === 'Game' && project.demoLinks && project.demoLinks.length > 0) {
+      setShowDemoModal(true);
+      setSelectedDemo(0);
+    } else if (project.type === 'Website' && project.demoLinks && project.demoLinks.length > 0) {
+      window.open(project.demoLinks[0], '_blank');
+    }
+  };
 
   return (
     <>
@@ -217,12 +229,63 @@ const Detailproject = () => {
 
                 <div className="action-buttons">
                   <button className="btn btn-success">Đặt project ngay</button>
+                  {project.demoLinks && project.demoLinks.length > 0 && (
+                    <button
+                      className="btn btn-demo"
+                      style={{ marginLeft: 12 }}
+                      onClick={handleDemoClick}
+                    >
+                      Xem demo Project
+                    </button>
+                  )}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      {/* Modal demo cho Game */}
+      {showDemoModal && project.type === 'Game' && (
+        <div className="dh__demo-modal-overlay" onClick={() => setShowDemoModal(false)}>
+          <div className="dh__demo-modal dh__demo-modal-portrait" onClick={e => e.stopPropagation()}>
+            <button className="dh__demo-modal-close" onClick={() => setShowDemoModal(false)}>×</button>
+            <h3 style={{marginBottom: 12}}>Demo Game</h3>
+            {project.demoLinks.length > 1 && (
+              <div className="dh__demo-links">
+                {project.demoLinks.map((link, idx) => (
+                  <button
+                    key={link}
+                    className={`dh__demo-link-btn${selectedDemo === idx ? ' active' : ''}`}
+                    onClick={() => setSelectedDemo(idx)}
+                  >
+                    Server {idx + 1}
+                  </button>
+                ))}
+              </div>
+            )}
+            <div
+              className={
+                project.orientation === 'landscape'
+                  ? 'dh__demo-iframe-wrap-landscape'
+                  : 'dh__demo-iframe-wrap-portrait'
+              }
+            >
+              <iframe
+                src={project.demoLinks[selectedDemo]}
+                title={`Demo ${project.title}`}
+                frameBorder="0"
+                allowFullScreen
+                className={
+                  project.orientation === 'landscape'
+                    ? 'dh__demo-iframe-landscape'
+                    : 'dh__demo-iframe-portrait'
+                }
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 };

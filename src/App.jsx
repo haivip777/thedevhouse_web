@@ -13,9 +13,9 @@ function App() {
       <ScrollToTop />
       <Outlet />
       <Foot />
-      <button className="floating-order-btn">
+      {/* <button className="floating-order-btn">
         Đặt PROJECT theo yêu cầu
-      </button>
+      </button> */}
     </>
   )
 }
