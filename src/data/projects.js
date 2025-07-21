@@ -18,161 +18,152 @@ export const projects = [
   {
     id: "001",
     title: "League of Legends",
-    tech: "React, SCSS",
+    tech: "Unity, C#, Photon",
     type: "Game",
     image: a1,
-    description_sub: "Giao diện người dùng hiện đại sử dụng React kết hợp với SCSS cho hiệu ứng mượt mà.",
-    description: "League of Legends là một trò chơi MOBA đỉnh cao, nơi người chơi phối hợp chiến thuật và kỹ năng cá nhân để đối đầu trong các trận chiến khốc liệt. Giao diện được phát triển bằng React giúp phản hồi nhanh, trong khi SCSS mang lại trải nghiệm thị giác mượt mà.",
+    description_sub: "Game MOBA nổi tiếng với giao diện hiện đại, hiệu ứng mượt mà và cập nhật realtime.",
+    description: "League of Legends là game chiến thuật đồng đội, nơi người chơi chọn tướng, phối hợp và cạnh tranh trên bản đồ Summoner's Rift. Website mô phỏng giao diện game, cập nhật trạng thái trận đấu realtime bằng WebSocket, sử dụng React cho UI và SCSS cho hiệu ứng động.",
     gallery: [a1, a1, a1, a1, a1, a1, a1, a1, a1, a1],
     demoLinks: [
-      "https://thedevhouse.shop/g1-tripletile/",
       "https://thedevhouse.shop/g1-tripletile/"
     ],
-    orientation: "portrait",
+    orientation: "landscape",
   },
   {
     id: "002",
     title: "Valorant",
-    tech: "Vue, TypeScript",
+    tech: "Unreal Engine, C++, Blueprint",
     type: "Game",
     image: a2,
-    description_sub: "Ứng dụng sử dụng Vue để điều khiển giao diện cùng TypeScript để đảm bảo tính ổn định.",
-    description: "Valorant là trò chơi bắn súng chiến thuật với lối chơi nhịp độ nhanh, nơi mỗi nhân vật đều sở hữu kỹ năng riêng biệt. Giao diện được thiết kế với Vue và TypeScript giúp giữ hiệu suất cao và dễ bảo trì.",
+    description_sub: "Game FPS chiến thuật với UI realtime, bản đồ động và hiệu ứng kỹ năng.",
+    description: "Valorant là game bắn súng góc nhìn thứ nhất, mỗi agent có kỹ năng riêng. Website mô phỏng bản đồ, agent, và hiệu ứng kỹ năng bằng Canvas API, UI xây dựng bằng Vue và TypeScript để đảm bảo hiệu suất và bảo trì.",
     gallery: [a2, a2, a2, a2, a2, a2, a2, a2, a2, a2],
     demoLinks: [
-      "https://demo-server1.valorantgame.com",
-      "https://demo-server2.valorantgame.com"
+      "https://demo-server1.valorantgame.com"
     ],
     orientation: "landscape",
   },
   {
     id: "003",
     title: "Genshin Impact",
-    tech: "HTML, CSS, Vanilla JS",
+    tech: "Unity, C#, Custom Engine",
     type: "Game",
     image: a3,
-    description_sub: "Thiết kế thuần túy với HTML, CSS và JavaScript giúp tối ưu hiệu năng và tính tương thích.",
-    description: "Genshin Impact là một thế giới mở rộng lớn với đồ họa tuyệt đẹp và hệ thống nguyên tố độc đáo. Website trình bày nội dung một cách tối giản nhưng hiệu quả nhờ sử dụng HTML, CSS và JavaScript cơ bản.",
+    description_sub: "Game nhập vai thế giới mở với hiệu ứng đồ họa đẹp, bản đồ tương tác.",
+    description: "Genshin Impact là game nhập vai phiêu lưu, khám phá thế giới Teyvat rộng lớn. Website trình diễn bản đồ tương tác, nhân vật và hiệu ứng nguyên tố bằng WebGL, sử dụng HTML5/CSS3 cho layout và Vanilla JS cho logic.",
     gallery: [a3, a3, a3, a3, a3, a3, a3, a3, a3, a3],
     demoLinks: [
-      "https://demo-server1.genshinimpact.com",
-      "https://demo-server2.genshinimpact.com"
+      "https://demo-server1.genshinimpact.com"
     ],
-    orientation: "portrait",
+    orientation: "landscape",
   },
   {
     id: "004",
     title: "Call of Duty: Warzone",
-    tech: "React, Tailwind CSS",
+    tech: "IW Engine, C++, DirectX",
     type: "Game",
     image: a4,
-    description_sub: "React giúp xây dựng UI động, Tailwind hỗ trợ thiết kế utility-first nhất quán.",
-    description: "Warzone là tựa game bắn súng sinh tồn với bản đồ rộng lớn và lối chơi nhanh. Giao diện web sử dụng React để cập nhật thông tin tức thời, kết hợp Tailwind CSS giúp dễ dàng duy trì cấu trúc và phong cách thiết kế.",
+    description_sub: "Game battle royale với bản đồ lớn, cập nhật realtime vị trí người chơi.",
+    description: "Warzone là game bắn súng sinh tồn, bản đồ rộng, nhiều chế độ chơi. Website mô phỏng bản đồ, vị trí người chơi realtime bằng Socket.io, UI động với React và style utility-first bằng Tailwind CSS.",
     gallery: [a4, a4, a4, a4, a4, a4, a4, a4, a4, a4],
     demoLinks: [
-      "https://demo-server1.codmw.com",
-      "https://demo-server2.codmw.com"
+      "https://demo-server1.codmw.com"
     ],
     orientation: "landscape",
   },
   {
     id: "005",
     title: "Minecraft",
-    tech: "Three.js, WebGL",
+    tech: "Java, LWJGL, OpenGL",
     type: "Game",
     image: a5,
-    description_sub: "Hiển thị đồ họa 3D trong trình duyệt bằng Three.js và WebGL.",
-    description: "Minecraft là trò chơi sandbox khuyến khích sự sáng tạo và khám phá. Website sử dụng Three.js kết hợp WebGL để trình diễn bản đồ và đối tượng 3D tương tác ngay trong trình duyệt.",
+    description_sub: "Game sandbox 3D, mô phỏng xây dựng và khám phá thế giới khối vuông.",
+    description: "Minecraft là game sáng tạo thế giới mở, xây dựng và sinh tồn. Website sử dụng Three.js và WebGL để render bản đồ 3D, Node.js backend để lưu trữ dữ liệu thế giới và người chơi.",
     gallery: [a5, a5, a5, a5, a5, a5, a5, a5, a5, a5],
     demoLinks: [
-      "https://demo-server1.minecraft.net",
-      "https://demo-server2.minecraft.net"
+      "https://demo-server1.minecraft.net"
     ],
-    orientation: "portrait",
+    orientation: "landscape",
   },
   {
     id: "006",
     title: "Fortnite",
-    tech: "Next.js, Styled Components",
+    tech: "Unreal Engine, C++, Blueprint",
     type: "Game",
     image: a6,
-    description_sub: "Tối ưu SEO với Next.js và viết CSS hiệu quả bằng Styled Components.",
-    description: "Fortnite là một trò chơi battle royale nổi bật với phong cách hoạt hình và các sự kiện trực tuyến. Website sử dụng Next.js để tối ưu hiệu suất tải trang và Styled Components để xây dựng giao diện linh hoạt.",
+    description_sub: "Game battle royale hoạt hình, giao diện hiện đại và chat realtime.",
+    description: "Fortnite là game battle royale với đồ họa hoạt hình, nhiều sự kiện trực tuyến. Website mô phỏng giao diện lobby, bảng xếp hạng, và chat realtime bằng WebRTC, UI tối ưu SEO với Next.js và Styled Components.",
     gallery: [a6, a6, a6, a6, a6, a6, a6, a6, a6, a6],
     demoLinks: [
-      "https://demo-server1.fortnite.com",
-      "https://demo-server2.fortnite.com"
+      "https://demo-server1.fortnite.com"
     ],
     orientation: "landscape",
   },
   {
     id: "007",
     title: "Roblox",
-    tech: "React, Firebase",
+    tech: "Roblox Studio, Lua",
     type: "Game",
     image: a7,
-    description_sub: "Realtime data với Firebase, UI bằng React giúp cập nhật nhanh chóng.",
-    description: "Roblox là nền tảng trò chơi nơi người dùng có thể tạo và chia sẻ game. Giao diện web được đồng bộ dữ liệu thời gian thực với Firebase, và phần frontend sử dụng React để tối ưu trải nghiệm.",
+    description_sub: "Nền tảng game đa dạng, cập nhật dữ liệu realtime và UI linh hoạt.",
+    description: "Roblox là nền tảng cho phép người dùng tạo và chơi nhiều game khác nhau. Website mô phỏng giao diện Roblox Studio, cập nhật dữ liệu game realtime bằng Firebase và WebSocket, UI bằng React.",
     gallery: [a7, a7, a7, a7, a7, a7, a7, a7, a7, a7],
     demoLinks: [
-      "https://demo-server1.roblox.com",
-      "https://demo-server2.roblox.com"
+      "https://demo-server1.roblox.com"
     ],
-    orientation: "portrait",
+    orientation: "landscape",
   },
   {
     id: "008",
     title: "PUBG",
-    tech: "Angular, SCSS",
+    tech: "Unreal Engine, C++, Blueprint",
     type: "Game",
     image: a8,
-    description_sub: "Angular cho SPA mạnh mẽ, SCSS giúp tổ chức code CSS tốt hơn.",
-    description: "PUBG là tựa game bắn súng sinh tồn nổi tiếng với bản đồ rộng và gameplay chiến thuật. Website dùng Angular để tạo ứng dụng một trang (SPA) hiện đại, đồng thời tổ chức style bằng SCSS rõ ràng hơn.",
+    description_sub: "Game bắn súng sinh tồn, bản đồ lớn, cập nhật realtime vị trí và trạng thái.",
+    description: "PUBG là game battle royale, bản đồ rộng, gameplay chiến thuật. Website mô phỏng bản đồ, trạng thái trận đấu realtime bằng WebSocket, UI SPA với Angular và style tổ chức bằng SCSS.",
     gallery: [a8, a8, a8, a8, a8, a8, a8, a8, a8, a8],
     demoLinks: [
-      "https://demo-server1.pubg.com",
-      "https://demo-server2.pubg.com"
+      "https://demo-server1.pubg.com"
     ],
     orientation: "landscape",
   },
   {
     id: "009",
     title: "Elden Ring",
-    tech: "React, Bootstrap",
+    tech: "Custom Engine, C++, DirectX",
     type: "Game",
     image: a9,
-    description_sub: "Kết hợp Bootstrap và React tạo layout nhất quán và linh hoạt.",
-    description: "Elden Ring là trò chơi nhập vai thế giới mở với cốt truyện sâu sắc và các trùm mạnh mẽ. Trang web sử dụng Bootstrap để tạo layout nhanh chóng, kết hợp React để xử lý trạng thái động.",
+    description_sub: "Game nhập vai thế giới mở, giao diện mô phỏng inventory và boss battle.",
+    description: "Elden Ring là game nhập vai phiêu lưu, chiến đấu với boss mạnh. Website mô phỏng giao diện inventory, bản đồ, và trạng thái boss battle, sử dụng React cho UI, Bootstrap cho layout và REST API để lấy dữ liệu game.",
     gallery: [a9, a9, a9, a9, a9, a9, a9, a9, a9, a9],
     demoLinks: [
-      "https://demo-server1.eldenring.com",
-      "https://demo-server2.eldenring.com"
-    ],
-    orientation: "portrait",
-  },
-  {
-    id: "010",
-    title: "Apex Legends",
-    tech: "Vue, Tailwind CSS",
-    type: "Game",
-    image: a10,
-    description_sub: "Kết hợp Vue và Tailwind giúp xây dựng nhanh UI linh hoạt, nhẹ và responsive.",
-    description: "Apex Legends là game bắn súng đồng đội với nhân vật đa dạng và di chuyển linh hoạt. Giao diện web được dựng với Vue để phản hồi nhanh, sử dụng Tailwind CSS để đảm bảo giao diện đồng nhất và tối ưu.",
-    gallery: [a10, a10, a10, a10, a10, a10, a10, a10, a10, a10],
-    demoLinks: [
-      "https://demo-server1.apexlegends.com",
-      "https://demo-server2.apexlegends.com"
+      "https://demo-server1.eldenring.com"
     ],
     orientation: "landscape",
   },
   {
+    id: "010",
+    title: "Apex Legends",
+    tech: "Source Engine, C++, Python",
+    type: "Game",
+    image: a10,
+    description_sub: "Game bắn súng đồng đội, cập nhật realtime trạng thái trận đấu.",
+    description: "Apex Legends là game bắn súng đồng đội, nhân vật đa dạng. Website mô phỏng giao diện chọn nhân vật, cập nhật trạng thái trận đấu realtime bằng WebSocket, UI responsive với Vue và Tailwind CSS.",
+    gallery: [a10, a10, a10, a10, a10, a10, a10, a10, a10, a10],
+    demoLinks: [
+      "https://demo-server1.apexlegends.com"
+    ],
+    orientation: "landscape",
+  },
+  // --- Website projects ---
+  {
     id: "011",
     title: "Portfolio Developer",
-    tech: "React, Sass",
+    tech: "HTML, CSS, JS, React",
     type: "Website",
     image: a11,
-    description_sub: "Giao diện cá nhân dùng React và Sass để tạo hiệu ứng và quản lý style.",
-    description: "Website Portfolio dành cho các lập trình viên cá nhân, cung cấp giao diện giới thiệu bản thân, kỹ năng, kinh nghiệm làm việc và các dự án. Thiết kế tối giản và hiện đại với khả năng responsive mượt mà trên mọi thiết bị.",
+    description_sub: "Website cá nhân giới thiệu kỹ năng, dự án, kinh nghiệm lập trình.",
+    description: "Portfolio Developer là website cá nhân dành cho lập trình viên, hiển thị thông tin cá nhân, kỹ năng, kinh nghiệm, dự án nổi bật. Giao diện hiện đại, hiệu ứng chuyển động mượt mà với Framer Motion, responsive trên mọi thiết bị.",
     gallery: [a11, a11, a11, a11, a11, a11, a11, a11, a11, a11],
     demoLinks: [
       "https://portfolio-demo.devhouse.com"
@@ -181,11 +172,11 @@ export const projects = [
   {
     id: "012",
     title: "Ecommerce Shop",
-    tech: "Next.js, Tailwind CSS",
+    tech: "HTML, CSS, JS, Next.js",
     type: "Website",
     image: a12,
-    description_sub: "Xây dựng trang thương mại điện tử nhanh với Next.js và giao diện Tailwind.",
-    description: "Website thương mại điện tử với chức năng giỏ hàng, tìm kiếm sản phẩm, lọc danh mục, và thanh toán. Hỗ trợ SEO tốt, tốc độ tải nhanh nhờ Next.js và giao diện chuẩn responsive bằng Tailwind.",
+    description_sub: "Website thương mại điện tử, giỏ hàng, thanh toán online, responsive.",
+    description: "Ecommerce Shop là website bán hàng trực tuyến, hỗ trợ tìm kiếm sản phẩm, lọc danh mục, giỏ hàng, thanh toán online qua Stripe API. Giao diện tối ưu SEO với Next.js, responsive bằng Tailwind CSS.",
     gallery: [a12, a12, a12, a12, a12, a12, a12, a12, a12, a12],
     demoLinks: [
       "https://ecommerce-demo.devhouse.com"
@@ -197,8 +188,8 @@ export const projects = [
     tech: "HTML, CSS, JS",
     type: "Website",
     image: a13,
-    description_sub: "Trang giới thiệu sản phẩm nhẹ, không cần framework.",
-    description: "Landing page dành cho một sản phẩm cụ thể với hiệu ứng chuyển động nhẹ nhàng, thiết kế đẹp mắt, cung cấp thông tin, giá cả và đánh giá. Dễ triển khai trên mọi nền tảng nhờ công nghệ thuần.",
+    description_sub: "Landing page giới thiệu sản phẩm, hiệu ứng chuyển động đẹp mắt.",
+    description: "Landing Page Product là website giới thiệu sản phẩm, cung cấp thông tin, giá cả, đánh giá, call-to-action mạnh mẽ. Hiệu ứng chuyển động mượt mà với GSAP, dễ triển khai trên mọi nền tảng.",
     gallery: [a13, a13, a13, a13, a13, a13, a13, a13, a13, a13],
     demoLinks: [
       "https://landingpage-demo.devhouse.com"
@@ -207,11 +198,11 @@ export const projects = [
   {
     id: "014",
     title: "Blog Developer",
-    tech: "Gatsby, Markdown",
+    tech: "HTML, CSS, JS, Gatsby",
     type: "Website",
     image: a14,
-    description_sub: "Blog cá nhân dùng Gatsby tĩnh kết hợp file Markdown dễ viết bài.",
-    description: "Blog dành cho developer chia sẻ kiến thức, cập nhật tin tức công nghệ. Gatsby giúp tạo trang nhanh, file Markdown giúp viết nội dung tiện lợi và thân thiện với SEO.",
+    description_sub: "Blog cá nhân chia sẻ kiến thức, viết bài bằng Markdown, truy vấn dữ liệu với GraphQL.",
+    description: "Blog Developer là website blog cá nhân cho developer, chia sẻ kiến thức, cập nhật tin tức công nghệ. Gatsby giúp tạo trang tĩnh nhanh, nội dung viết bằng Markdown, truy vấn dữ liệu với GraphQL, tối ưu SEO.",
     gallery: [a14, a14, a14, a14, a14, a14, a14, a14, a14, a14],
     demoLinks: [
       "https://blog-demo.devhouse.com"
@@ -220,11 +211,11 @@ export const projects = [
   {
     id: "015",
     title: "Admin Dashboard",
-    tech: "React, Ant Design",
+    tech: "HTML, CSS, JS, React, Ant Design",
     type: "Website",
     image: a15,
-    description_sub: "Bảng quản trị dữ liệu động sử dụng React và Ant Design UI.",
-    description: "Giao diện quản trị giúp quản lý người dùng, sản phẩm, đơn hàng, báo cáo. Tối ưu hiệu suất với React, sử dụng Ant Design để đảm bảo tính thẩm mỹ và trải nghiệm người dùng tốt.",
+    description_sub: "Bảng quản trị dữ liệu, quản lý người dùng, sản phẩm, báo cáo trực quan.",
+    description: "Admin Dashboard là website quản trị, quản lý người dùng, sản phẩm, đơn hàng, báo cáo. Giao diện hiện đại với Ant Design, biểu đồ trực quan bằng Chart.js, tối ưu hiệu suất với React.",
     gallery: [a15, a15, a15, a15, a15, a15, a15, a15, a15, a15],
     demoLinks: [
       "https://admin-dashboard-demo.devhouse.com"
@@ -233,11 +224,11 @@ export const projects = [
   {
     id: "016",
     title: "Startup Homepage",
-    tech: "Vue.js, Vuetify",
+    tech: "HTML, CSS, JS, Vue.js, Vuetify",
     type: "Website",
     image: a1,
-    description_sub: "Trang chủ startup nhanh chóng với Vue và Vuetify material design.",
-    description: "Website dành cho startup khởi nghiệp, hiển thị thông tin doanh nghiệp, tính năng sản phẩm, testimonial và call-to-action mạnh mẽ. Sử dụng Vue kết hợp Vuetify giúp đồng bộ và dễ phát triển.",
+    description_sub: "Website giới thiệu startup, thông tin doanh nghiệp, tính năng sản phẩm.",
+    description: "Startup Homepage là website dành cho doanh nghiệp khởi nghiệp, hiển thị thông tin công ty, tính năng sản phẩm, testimonial, call-to-action. UI đồng bộ với Vuetify, lấy dữ liệu động bằng Axios.",
     gallery: [a1, a1, a1, a1, a1, a1, a1, a1, a1, a1],
     demoLinks: [
       "https://startup-homepage-demo.devhouse.com"
@@ -246,11 +237,11 @@ export const projects = [
   {
     id: "017",
     title: "Restaurant Menu",
-    tech: "Angular, Bootstrap",
+    tech: "HTML, CSS, JS, Angular, Bootstrap",
     type: "Website",
     image: a2,
-    description_sub: "Trang thực đơn nhà hàng xây dựng với Angular và Bootstrap.",
-    description: "Giao diện hiển thị thực đơn nhà hàng với danh mục món ăn, hình ảnh, giá cả và đánh giá khách hàng. Angular giúp cập nhật dữ liệu động, Bootstrap đảm bảo responsive hiệu quả.",
+    description_sub: "Website thực đơn nhà hàng, cập nhật món ăn, giá cả, đánh giá khách hàng.",
+    description: "Restaurant Menu là website hiển thị thực đơn nhà hàng, danh mục món ăn, hình ảnh, giá cả, đánh giá khách hàng. UI responsive với Bootstrap, dữ liệu động từ Firebase, SPA với Angular.",
     gallery: [a2, a2, a2, a2, a2, a2, a2, a2, a2, a2],
     demoLinks: [
       "https://restaurant-menu-demo.devhouse.com"
@@ -259,11 +250,11 @@ export const projects = [
   {
     id: "018",
     title: "Real Estate Listing",
-    tech: "Next.js, MongoDB",
+    tech: "HTML, CSS, JS, Next.js, MongoDB",
     type: "Website",
     image: a3,
-    description_sub: "Trang bất động sản với Next.js server-side và dữ liệu MongoDB.",
-    description: "Website hiển thị danh sách nhà đất, cho thuê, mua bán. Hỗ trợ tìm kiếm, lọc khu vực, phân loại giá và chi tiết từng bất động sản. Next.js xử lý SSR giúp SEO tốt, MongoDB lưu trữ thông tin hiệu quả.",
+    description_sub: "Website bất động sản, tìm kiếm, lọc khu vực, bản đồ tương tác.",
+    description: "Real Estate Listing là website hiển thị danh sách nhà đất, cho thuê, mua bán. Hỗ trợ tìm kiếm, lọc khu vực, phân loại giá, bản đồ tương tác với Mapbox. Next.js xử lý SSR, MongoDB lưu trữ dữ liệu.",
     gallery: [a3, a3, a3, a3, a3, a3, a3, a3, a3, a3],
     demoLinks: [
       "https://realestate-listing-demo.devhouse.com"
