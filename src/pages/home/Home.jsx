@@ -10,6 +10,7 @@ const Home = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [searchTag, setSearchTag] = useState('');
   const [showBanner, setShowBanner] = useState(true);
+  const [showContactOptions, setShowContactOptions] = useState(false);
 
   const handleSearch = (term) => {
     setSearchTerm(term);
@@ -22,7 +23,11 @@ const Home = () => {
   };
 
   const handleContact = () => {
-    window.location.href = '#';
+    setShowContactOptions(true);
+  };
+
+  const handleCloseContactOptions = () => {
+    setShowContactOptions(false);
   };
 
   return (
@@ -36,6 +41,33 @@ const Home = () => {
               <span>The Dev House Shop</span>
               <button className="dh__banner-contact" onClick={handleContact}>Đặt Project theo yêu cầu</button>
             </div>
+            {showContactOptions && (
+              <div
+                className="dh__contact-options show"
+                aria-hidden={!showContactOptions}
+              >
+                <button className="dh__contact-close" onClick={handleCloseContactOptions}>×</button>
+                <div className="dh__contact-title">Liên hệ qua:</div>
+                <a
+                  className="dh__contact-link"
+                  href="https://zalo.me/0869528304"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Zalo</a>
+                <a
+                  className="dh__contact-link"
+                  href="https://m.me/61576886176025"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Messenger</a>
+                <a
+                  className="dh__contact-link"
+                  href="mailto:thedevhouse.shop@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Email</a>
+              </div>
+            )}
           </div>
         </div>
       )}

@@ -251,3 +251,87 @@
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
   }
 }
+
+.dh__contact-options {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0;
+  background: #fff;
+  color: #2c5aa0;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(44,90,160,0.18);
+  padding: 28px 24px 18px 24px;
+  min-width: 220px;
+  z-index: 10002;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  pointer-events: none;
+  transition: transform 0.3s cubic-bezier(.4,0,.2,1), opacity 0.3s cubic-bezier(.4,0,.2,1);
+}
+
+.dh__contact-options.show {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@keyframes scale {
+  from {
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.dh__contact-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.dh__contact-link {
+  background: #2c5aa0;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 4px 0;
+  transition: background 0.2s;
+  width: 100%;
+  text-align: center;
+}
+.dh__contact-link:hover {
+  background: #6dd5ed;
+  color: #2c5aa0;
+}
+
+.dh__contact-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: #e3e9f6;
+  color: #2c5aa0;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: background 0.2s;
+}
+.dh__contact-close:hover {
+  background: #2c5aa0;
+  color: #fff;
+}
