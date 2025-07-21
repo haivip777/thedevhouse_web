@@ -9,49 +9,49 @@ import viet_img from '../../assets/aboutus/viet.jpg'
 
 const teamMembers = [
   {
-    name: "Hai Luu Cong",
+    name: "Cong Hai Luu",
     role: "CIO & Co-Founder",
     image: hai_img,
     color: "blue",
     description: "Chuyên phát triển frontend & backend với React, Node.js và MongoDB.",
     socials: {
-      facebook: "https://facebook.com/nguyenvana",
+      facebook: "https://www.facebook.com/iamHCl0104?locale=vi_VN",
       twitter: "https://twitter.com/nguyenvana",
       linkedin: "https://linkedin.com/in/nguyenvana"
     }
   },
   {
-    name: "Vuong Duong Minh",
+    name: "Minh Vuong Duong",
     role: "CEO & Founder",
     image: vuong_img,
     color: "gray",
     description: "Chuyên phát triển frontend & backend với React, Node.js và MongoDB.",
     socials: {
-      facebook: "https://facebook.com/tranthib",
+      facebook: "https://www.facebook.com/minhvuog.dev/",
       twitter: "https://twitter.com/tranthib",
       linkedin: "https://linkedin.com/in/tranthib"
     }
   },
   {
-    name: "Lam Nguyen Thanh",
+    name: "Thanh Lam Nguyen",
     role: "CTO & Co-Founder",
     image: lam_img,
     color: "orange",
     description: "Triển khai và tối ưu hệ thống trên nền tảng AWS, GCP, Azure.",
     socials: {
-      facebook: "https://facebook.com/levanc",
+      facebook: "https://www.facebook.com/thanhlamk4?locale=vi_VN",
       twitter: "https://twitter.com/levanc",
       linkedin: "https://linkedin.com/in/levanc"
     }
   },
   {
-    name: "Long Duong Van",
+    name: "Van Long Duong",
     role: "CMO & CHRO",
     image: long_img,
     color: "green",
     description: "Editor và đảm bảo truyền thông cho công ty trên các nền tảng MXH",
     socials: {
-      facebook: "https://facebook.com/phamthid",
+      facebook: "https://www.facebook.com/uonglong.735566?locale=vi_VN",
       twitter: "https://twitter.com/phamthid",
       linkedin: "https://linkedin.com/in/phamthid"
     }
@@ -63,19 +63,19 @@ const teamMembers = [
     color: "purple",
     description: "Game Unity Developer, chuyên phát triển game độ phức tạp cao",
     socials: {
-      facebook: "https://facebook.com/dominhe",
+      facebook: "https://www.facebook.com/nguyen.trong.anh.292566?locale=vi_VN",
       twitter: "https://twitter.com/dominhe",
       linkedin: "https://linkedin.com/in/dominhe"
     }
   },
   {
-    name: "Viet Nguyen Duc",
+    name: "Duc Viet Nguyen",
     role: "CPO",
     image: viet_img,
     color: "pink",
     description: "Game Unity Developer, chuyên phát triển game độ phức tạp cao",
     socials: {
-      facebook: "https://facebook.com/vuthif",
+      facebook: "https://www.facebook.com/ucviet.767787?locale=vi_VN",
       twitter: "https://twitter.com/vuthif",
       linkedin: "https://linkedin.com/in/vuthif"
     }
