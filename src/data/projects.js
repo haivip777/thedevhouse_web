@@ -1,18 +1,13 @@
-import a1 from '../assets/games/a1.png'
-import a2 from '../assets/games/a2.png'
-import a3 from '../assets/games/a3.png'  
-import a4 from '../assets/games/a4.png'
-import a5 from '../assets/games/a5.png'
-import a6 from '../assets/games/a6.png'
-import a7 from '../assets/games/a7.png'
-import a8 from '../assets/games/a8.png'
-import a9 from '../assets/games/a9.png'
-import a10 from '../assets/games/a10.png'
-import a11 from '../assets/games/a11.png'
-import a12 from '../assets/games/a12.png'
-import a13 from '../assets/games/a13.png'
-import a14 from '../assets/games/a14.png'
-import a15 from '../assets/games/a15.png'
+import a1 from '../assets/games/Soul_Knight/a1.png'
+import a2 from '../assets/games/Soul_Knight/a2.png'
+import a3 from '../assets/games/Soul_Knight/a3.png'  
+import a4 from '../assets/games/Soul_Knight/a4.png'
+import a5 from '../assets/games/Soul_Knight/a5.png'
+import a6 from '../assets/games/Soul_Knight/a6.png'
+import a7 from '../assets/games/Soul_Knight/a7.png'
+import a8 from '../assets/games/Soul_Knight/a8.png'
+import a9 from '../assets/games/Soul_Knight/a9.png'
+import a10 from '../assets/games/Soul_Knight/a10.png'
 
 export const projects = [
   {
@@ -31,15 +26,15 @@ export const projects = [
   },
   {
     id: "002",
-    title: "Valorant",
-    tech: "Unreal Engine, C++, Blueprint",
+    title: "Soul Knight",
+    tech: "Unity Engine, C#",
     type: "Game",
     image: a2,
-    description_sub: "Game FPS chiến thuật với UI realtime, bản đồ động và hiệu ứng kỹ năng.",
-    description: "Valorant là game bắn súng góc nhìn thứ nhất, mỗi agent có kỹ năng riêng. Website mô phỏng bản đồ, agent, và hiệu ứng kỹ năng bằng Canvas API, UI xây dựng bằng Vue và TypeScript để đảm bảo hiệu suất và bảo trì.",
-    gallery: [a2, a2, a2, a2, a2, a2, a2, a2, a2, a2],
+    description_sub: "Trải nghiệm cuộc chiến chiến thuật từ góc nhìn top-down – xây dựng phòng thủ, triển khai kỹ năng theo thời gian thực với giao diện sống động và hiệu ứng mãn nhãn!",
+    description: "Bước vào thế giới của những trận chiến chiến thuật đỉnh cao trong tựa game thủ thành góc nhìn top-down! Bạn sẽ vào vai anh hùng, xây dựng hệ thống phòng thủ vững chắc, bố trí đơn vị một cách thông minh và kích hoạt các kỹ năng đặc biệt theo thời gian thực để chống lại từng đợt tấn công dữ dội của kẻ thù.",
+    gallery: [a1, a2, a3, a4, a5, a6, a7, a8, a9, a10],
     demoLinks: [
-      "https://demo-server1.valorantgame.com"
+      "https://thedevhouse.shop/g3-soulknight/"
     ],
     orientation: "landscape",
   },
