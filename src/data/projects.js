@@ -1,6 +1,6 @@
 import a1 from '../assets/games/Soul_Knight/a1.png'
 import a2 from '../assets/games/Soul_Knight/a2.png'
-import a3 from '../assets/games/Soul_Knight/a3.png'  
+import a3 from '../assets/games/Soul_Knight/a3.png'
 import a4 from '../assets/games/Soul_Knight/a4.png'
 import a5 from '../assets/games/Soul_Knight/a5.png'
 import a6 from '../assets/games/Soul_Knight/a6.png'
@@ -12,17 +12,17 @@ import a10 from '../assets/games/Soul_Knight/a10.png'
 export const projects = [
   {
     id: "001",
-    title: "League of Legends",
-    tech: "Unity, C#, Photon",
+    title: "Triple Tile",
+    tech: "Unity, C#, Addressables",
     type: "Game",
     image: a1,
-    description_sub: "Game MOBA nổi tiếng với giao diện hiện đại, hiệu ứng mượt mà và cập nhật realtime.",
-    description: "League of Legends là game chiến thuật đồng đội, nơi người chơi chọn tướng, phối hợp và cạnh tranh trên bản đồ Summoner's Rift. Website mô phỏng giao diện game, cập nhật trạng thái trận đấu realtime bằng WebSocket, sử dụng React cho UI và SCSS cho hiệu ứng động.",
+    description_sub: "Game giải đố 3 tile thư giãn với thiết kế trực quan, hiệu ứng mượt và gameplay gây nghiện.",
+    description: "Triple Tile là game giải đố match-3, nơi người chơi cần ghép 3 tile giống nhau để xóa chúng khỏi bàn cờ. Trò chơi mang lại cảm giác thư giãn nhờ hiệu ứng chuyển động mượt, âm thanh nhẹ nhàng, cùng hệ thống level và tile được quản lý linh hoạt bằng Addressables. Logic chơi được tối ưu để xử lý các tình huống lấp đầy, rollback và xếp tile thông minh.",
     gallery: [a1, a1, a1, a1, a1, a1, a1, a1, a1, a1],
     demoLinks: [
       "https://thedevhouse.shop/g1-tripletile/"
     ],
-    orientation: "landscape",
+    orientation: "portrait",
   },
   {
     id: "002",
@@ -40,17 +40,17 @@ export const projects = [
   },
   {
     id: "003",
-    title: "Genshin Impact",
-    tech: "Unity, C#, Custom Engine",
+    title: "Coffee Rush",
+    tech: "Unity, C#, DOTween",
     type: "Game",
     image: a3,
-    description_sub: "Game nhập vai thế giới mở với hiệu ứng đồ họa đẹp, bản đồ tương tác.",
-    description: "Genshin Impact là game nhập vai phiêu lưu, khám phá thế giới Teyvat rộng lớn. Website trình diễn bản đồ tương tác, nhân vật và hiệu ứng nguyên tố bằng WebGL, sử dụng HTML5/CSS3 cho layout và Vanilla JS cho logic.",
+    description_sub: "Game xếp hàng quán cà phê nhịp độ nhanh với hiệu ứng chuyển động mượt và gameplay cuốn hút.",
+    description: "Coffee Rush là game casual nơi người chơi phục vụ khách hàng bằng cách xếp hàng đúng món đồ uống. Trò chơi có nhịp độ nhanh, hiệu ứng sinh động bằng DOTween, và hệ thống level đa dạng. Người chơi cần phản xạ nhanh và đưa ra quyết định chính xác để hoàn thành đơn hàng trong thời gian giới hạn.",
     gallery: [a3, a3, a3, a3, a3, a3, a3, a3, a3, a3],
     demoLinks: [
-      "https://demo-server1.genshinimpact.com"
+      "https://demo-server1.codmw.com"
     ],
-    orientation: "landscape",
+    orientation: "portrait",
   },
   {
     id: "004",
